@@ -10,6 +10,7 @@ import Achievements from './components/Achievements';
 import Certifications from './components/Certifications';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import { Analytics } from '@vercel/analytics/react';
 
 export function App() {
   return (
@@ -44,6 +45,7 @@ export function App() {
 
         {/* 10. Contact + Resume Download Callout */}
         <Contact />
+        <Analytics />
       </main>
 
       {/* 11. Footer */}
